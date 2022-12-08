@@ -20,6 +20,13 @@ html, body {
     align-items: center;
     flex-direction: column;
   }
+
+  #whiteContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+  }
   
   #citation:before {
       content: open-quote;
@@ -30,9 +37,17 @@ html, body {
   }
   
   #auteur {
+    display: flex;
     font-size: 1.5em;
     font-style: italic;
-    margin-left: 20px;
+    padding: 10px 0;
+  }
+
+  #split{
+    width: 300px ;
+    height: 5px;
+    background-color: black;
+    margin: 10px 0;
   }
   
   #nouveau {
@@ -41,4 +56,5 @@ html, body {
     background: linear-gradient(to right, #ff5e62, #ff9966);
     cursor: pointer;
     padding: 10px;
+    margin: 20px 0;
   }
