@@ -13,6 +13,7 @@ html, body {
     letter-spacing: 1px;
     background-color: white;
     padding: 30px;
+    margin: 20px;
   }
   .container{
     display: flex;
@@ -31,6 +32,7 @@ html, body {
   #auteur {
     font-size: 1.5em;
     font-style: italic;
+    margin-left: 20px;
   }
   
   #nouveau {
@@ -38,4 +40,5 @@ html, body {
     background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
     background: linear-gradient(to right, #ff5e62, #ff9966);
     cursor: pointer;
+    padding: 10px;
   }

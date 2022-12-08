@@ -1,3 +1,10 @@
+let citation = document.querySelector("#citation");
+let auteur = document.querySelector("#auteur");
+let nouveau = document.querySelector("#nouveau");
+let dernier = 0;
+let nombreAleatoire = 0;
+
+
 // Tableau de citations
 let citations = [
     ["La vie est un mystère qu'il faut vivre, et non un problème à résoudre.", "Gandhi"],
@@ -22,3 +29,21 @@ let citations = [
     ["Vous n’êtes jamais trop vieux pour vous fixer de nouveaux buts, ou rendre vos rêves réalité.", "C.S. Lewis"],
     ["Un pessimiste voit la difficulté dans chaque opportunité. Un optimiste voit une opportunité dans chaque difficulté.", "Winston Churchill"]
   ];
+
+  //permet de générer un nombre aléatoire
+  function genererNombreEntier(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+  }
+
+  //Detecter lorsque bouton nouveau est cliqué
+nouveau.addEventListener("click", ()=>{
+  do {
+    nombreAleatoire = genererNombreEntier(citations.length)
+  } while (nombreAleatoire==dernier)
+
+  citation.textContent = citations[nombreAleatoire][0];
+  auteur.textContent   = citations[nombreAleatoire][1];
+  dernier              = nombreAleatoire;
+}
+); 
+
