@@ -7,27 +7,26 @@ let nombreAleatoire = 0;
 
 // Tableau de citations
 let citations = [
-    ["La vie est un mystère qu'il faut vivre, et non un problème à résoudre.", "Gandhi"],
-    ["Le plus grand risque est de ne prendre aucun risque.", "Mark Zuckerberg"],
-    ["Méritez votre statut de leader chaque jour.", "Mickael Jordan"],
-    ["Soyez le changement que vous voulez voir dans le monde.", "Gandhi"],
-    ["A chaque fois que vous vous retrouvez du même côté que la majorité, il est temps de prendre du recul, et de réfléchir.", "Mark Twain"],
-    ["Seulement ceux qui prendront le risque d’aller trop loin découvriront jusqu’où on peut aller.", "T.S Elliot"],
-    ["Le succès c’est tomber sept fois, se relever huit.", "Proverbe japonais"],
-    ["Dans vingt ans vous serez plus déçus par les choses que vous n’avez pas faites que par celles que vous avez faites. Alors sortez des sentiers battus. Mettez les voiles. Explorez. Rêvez. Découvrez.", "Mark Twain"],
-    ["Si vous attendez pour agir, tout ce que vous gagnerez, avec le temps, c’est de l’âge.", "Brian Tracy"],
-    ["Quand on concentre son attention sur un seul projet, l’esprit suggère constamment des idées et des améliorations qui lui échapperaient s’il était occupé avec plusieurs projets en même temps.", "P.T. Barnum"],
-    ["Se dédier à faire tout ce que l’on peut pour aider les autres à obtenir ce qu’ils veulent, c’est la clé du succès.", "Brian Sher"],
-    ["Si vous pensez que vous êtes trop petit pour avoir de l’impact, essayez d’aller au lit avec un moustique.", "Anita Roddick"],
-    ["Ne jugez pas chaque jour sur ce que vous récoltez, mais sur les graines que vous semez.", "Robert Louis Stevenson"],
-    ["L’action est la clé fondamentale de tout succès.", "Pablo Picasso"],
-    ["Le succès, c’est se promener d’échecs en échecs tout en restant motivé.", "Winston Churchill"],
-    ["Votre avenir est créé par ce que vous faîtes aujourd’hui, pas demain.", "Robert T. Kiyosaki"],
-    ["Ne vous découragez pas, c’est souvent la dernière clef du trousseau qui ouvre la porte.", "Zig Ziglar"],
-    ["Pour gagner votre vie, apprenez à l’école. Pour gagner une fortune, apprenez par vous-même.", "Brian Tracy"],
-    ["Les gagnants trouvent des moyens, les perdants des excuses…", "F. D. Roosevelt"],
-    ["Vous n’êtes jamais trop vieux pour vous fixer de nouveaux buts, ou rendre vos rêves réalité.", "C.S. Lewis"],
-    ["Un pessimiste voit la difficulté dans chaque opportunité. Un optimiste voit une opportunité dans chaque difficulté.", "Winston Churchill"]
+    ["En vérité, la vérité, il n'y a pas de vérité.", "Jean-Claude Van Damne"],
+    ["Quand vraiment on a une confiance, on devient confiant.", "Jean-Claude Van Damne"],
+    ["Il ne faut pas prendre les gens pour des cons, il y a assez de cons qu'on prend pour des gens.", "Guy Bedos"],
+    ["Il faut rire de la mort surtout quand c'est les autres.", "Guy Bedos"],
+    ["Il m'est arrivé de prêter l'oreille à un sours. Il n'entendait pas mieux", "Raymond Devos"],
+    ["Un jardinier qui sabote une pelouse est un assassin en herbe", "Raymond Devos"],
+    ["Est-ce l'oeuf le pere de la poule ou la poule la mère de l'oeuf", "Raymond Devos"],
+    [" Si vous cassez un bout de bois en deux, il y a encore deux bouts à chaque bout.", "Raymond Devos"],
+    ["Si tu parles à ton eau de Javer pendant que tu fais la vaisselle, elle est moins concentrée.", "Jean-Claude Van Damne"],
+    ["The More Time You Spend Awake The More Time You Spend Asleep.", "Jaden Smith"],
+    ["Un humoriste c'est un philosophe qui rit jaune...", "Emile Coderre"],
+    ["Un humoriste est rarement bien rémunéré. C'est sans doute parce qu'il est impayable", "Vincent Roca"],
+    ["Se pencher sur son passé, c'est riquer de tomber dans l'oubli", "Coluche"],
+    ["Les aspirations des pauvres ne sont pas très éloignées des réalités des riches.", "Pierre Desproges"],
+    ["Une chose est certaine nous approchons sans cesse de plus tard", "Philippe Geluck"],
+    ["Si Christophe Colomb n'avait rien découvert, Kennedy serait toujours vivant", "Francis Blanche"],
+    ["Il faut une infinie patience pour attendre toujours ce qui n'arrive jamais", "Pierre Dac"],
+    ["Pour voir loin, il faut y regarder de près", "Pierre Dac"],
+    ["Le succès est le meilleur des somnifères", "Popeck"],
+    ["Quand un homme ne dit rien alors que tout le monde parle, on n'entend plus que lui !", "Raymond Devos"]
   ];
 
   //permet de générer un nombre aléatoire

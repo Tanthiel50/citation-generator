@@ -8,7 +8,6 @@ html, body {
   
   #citation {
     font-size: 2em;
-    font-family: 'Satisfy', curve;
     line-height: 1.3em;
     letter-spacing: 1px;
     background-color: white;
@@ -26,6 +25,7 @@ html, body {
     align-items: center;
     flex-direction: column;
     background-color: white;
+    width: 60%;
   }
   
   #citation:before {
@@ -52,9 +52,11 @@ html, body {
   
   #nouveau {
     background: #ff9966;
+    text-align: center;
     background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
     background: linear-gradient(to right, #ff5e62, #ff9966);
     cursor: pointer;
-    padding: 10px;
-    margin: 20px 0;
+    padding: 15px 0;
+    margin: 10px 0;
+    width: 60%;
   }
